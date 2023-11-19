@@ -1,8 +1,16 @@
+/* colores
+.color1 {color: #0069af;}
+.color2 {color: #8274b8;}
+.color3 {color: #d198c3;}
+.color4 {color: #ffc9d4;}
+.color5 {color: #ffebdf;} */
+
 /* Barra de navegacion */
 
 .navbar {
   padding: 2rem;
-  background-color: #e9deed;
+  /* background-color: #ffebdf; */
+  background-color: #FFF6F1;
 }
 
 .navbar-collapse {
@@ -11,6 +19,9 @@
 }
 
 /* Estilos generales */
+body{
+  font-family: 'Montserrat', cursive;
+}
 
 section {
   display: flex;
@@ -20,24 +31,26 @@ section {
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-family: 'Yeseva One', cursive;
+  font-size: 2.7rem;
+  font-family: 'Nerko One';
+  padding-bottom: 1rem;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #800961;
+  background-color: #8274b8;
 }
 
 .seccion-clara {
   color: black;
-  background-color: #e9deed;
+  background-color: #FFF6F1;
+  /* background-color: #ffebdf;; */
 }
 
 .seccion-titulo {
-  font-size: 2rem;
-  padding: 15px 0;
-  font-family: 'Quicksand', cursive;
+  font-size: 2.4rem;
+  padding: 20px 0;
+  font-family: 'Nerko One', cursive;
 }
 
 .seccion-descripcion {
@@ -46,12 +59,23 @@ h1 {
 }
 
 .seccion-texto {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.btn-text{
+  background-color: #0069af;
 }
 
 .btn-info {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 20px;
+  background-color: #ffc9d4;
+  border-color: #ffc9d4;
+}
+
+.btn-info:hover{
+  background-color: #d198c3;
+  border-color: #d198c3;
 }
 
 .texto-negro {
@@ -65,7 +89,8 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #e9deed;
+  /* background-color: #ffebdf; */
+  background-color: #FFF6F1;
   min-height: 450px;
   text-align: center;
 }
@@ -75,9 +100,9 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  width: 250px;
+  height: 250px;
+  margin: 25px;
 }
 
 .hero-principal h2 {
@@ -115,13 +140,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #800961;
+  background-color: #8274b8;
 }
 
 .experiencia i {
   font-size: 2.5rem;
   color: #f8efed;
-  background-color: #180b46;
+  background-color: #d198c3;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -234,7 +259,7 @@ h1 {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Bitter', monospace;
 }
 
 .testimonio-info {
@@ -265,7 +290,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #180b46;
+  background-color: #0069af;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -294,7 +319,7 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: #9caee9;
+  color: #0069af;
 }
 
 .contacto button i {
@@ -304,7 +329,7 @@ h1 {
 }
 
 .contacto button:hover i {
-  color: #9caee9;
+  color: #0069af;
 }
 
 /* Pie de pagina (footer) */
@@ -323,7 +348,7 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -347,7 +372,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid #9caee9;
+  border: 2px solid #0069af;
 }
 
 .iconos-redes-sociales a:hover i {
